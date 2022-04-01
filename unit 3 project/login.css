@@ -1,0 +1,41 @@
+body{
+    background-color: #f3f3f3;
+    font-family: sans-serif;
+}
+#login{
+    height: 600px;
+    width: 400px;
+    border: 1px solid #ccc;
+    background-color:white;
+    border-radius:10px;
+    margin-left: 500px;
+    margin-top:20ps;
+}
+#user{
+width:80%;
+height: 50px;
+margin-top: 50px;
+margin-left:35px;
+border: 1px solid #fc2779;
+}
+#user_password{
+    height: 50px;
+    width: 80%;
+    margin-top: 20px;
+    margin-left:35px;
+    border: 1px solid #fc2779;
+}
+button{
+    width: 80%;
+    height: 60px;
+    margin-left: 35px;
+    margin-top:60px;
+    font-size:25px;
+    background-color:#fc2779;
+    border: none;
+    color: white;
+}
+#login h2{
+    text-align: center;
+}
+

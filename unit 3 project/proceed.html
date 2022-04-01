@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="proceed.css">
+</head>
+<body>
+    <div id="proceed">
+        <img id="proimg"src="https://www.kindpng.com/picc/m/538-5384483_thin-close-icon-png-clipart-png-download-wrong.png" alt="">
+        <h3>LOGIN/REGISTER</h3>
+        <input type="text" placeholder="Enter Phone Number or Email" id="proinput">
+        <p style="font-size: 12px;">REQUIRED</p>
+        <button id="btnpro">PROCEED</button>
+
+    </div>
+</body>
+</html>
+<script>
+    let cross=document.getElementById("proimg")
+    cross.addEventListener("click",()=>{
+        window.location.href="profile.html"
+    })
+    let input=document.getElementById("proinput");
+    let btn=document.getElementById("btnpro")
+    let arr=[]
+    btn.addEventListener("click",()=>{
+        let input=document.getElementById("proinput").value;
+     
+         
+         arr.push(input)
+          localStorage.setItem("mail",JSON.stringify(arr))
+          window.location.href="register.html";
+          console.log("register",input)
+          console.log(arr)
+    
+     
+      
+
+    })
+   
+</script>

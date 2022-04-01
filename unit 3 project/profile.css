@@ -1,0 +1,108 @@
+body{
+    background-color:#f3f3f3;
+    font-family: sans-serif;
+}
+#profile{
+    display: flex;
+}
+#profile >div:nth-child(1){
+ 
+  height:200px;
+  width: 350px;
+  margin-left: 50px;
+}
+#profile >div:nth-child(2){
+  color: #5f5f71;
+  height:1000px;
+  width:100%;
+  
+}
+#profile >div:nth-child(2) a{
+    text-decoration: none;
+    color: #5f5f71;
+}
+
+.pro{
+    height: 40px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding-top: 20px;
+    background-color: white;
+   
+}
+.pro:hover{
+    color: #fc2779;
+}
+.pro>a{
+    
+    text-decoration:none;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 20px;
+    color: #5f5f71;
+  
+}
+.pro>a:hover{
+    color:#fc2779 ;
+}
+.pro i{
+    font-size:20px;
+    margin-left: 15px;
+    
+}
+#profileimg{
+    
+    height:600px;
+    width:700px;
+    margin-left: 100px;
+    margin-top:150px;
+    background-image: url("https://cdnr.nykaa.com/assets/desktop/images/my_account/myaccountbg.png");
+    background-repeat: no-repeat;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding-top: 3px;
+
+}
+#prodiv{
+    display: flex;
+    height: 180px;
+    width: 80%;
+   
+    margin: 30px;
+    margin-left: 60px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-top: 60px;
+    gap: 20px;
+    background-color: white;
+}
+#prodiv1{
+height: 150px;
+width:150px;
+
+border-radius: 75px;
+
+
+}
+#prodiv2{
+    height:150px;
+    width:300px;
+   
+    line-height: 10px;
+}
+#address{
+   
+    display: flex;
+    font-family: sans-serif;
+}
+#address>div:nth-child(1){
+    height: 150px;
+   width:330px;
+   color: #3f465a;
+   margin-left: 20px;
+    
+
+}
+#address>div:nth-child(2){
+    margin-left: 20px;
+}

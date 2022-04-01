@@ -1,0 +1,131 @@
+body{
+    font-family:sans-serif;
+    background-color:#f3f3f3;
+}
+#adnav{
+    display: flex;
+    height: 90px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    background-color: white;
+}
+#adnav>div:nth-child(1){
+    height: 100%;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#adnav>div:nth-child(1) img{
+    height: 80%;
+    width: 25%;
+    margin-top: 10px;
+  margin-left: 35%;
+}
+#adnav>div:nth-child(2){
+    height: 100%;
+    width: 150px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+} 
+#adnav>div:nth-child(3){
+    height: 100%;
+    width: 150px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#adnav>div:nth-child(4){
+    height: 100%;
+    width: 150px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#adnav>div>h3{
+    margin-left: 10px;
+    margin-top: 25px;
+    color:#83848c;
+}
+#adnav>div>h3:hover{
+    color:#fc2779;
+}
+/* <----------adddiv-------------- */
+#addiv{
+    display: flex;
+    margin-top: 50px;
+    
+}
+#addiv>div:nth-child(1){
+    height: 50px;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin-left: 200px;
+    text-align: center;
+    color: #fc2779;
+    background-color: white;
+}
+#addiv>div:nth-child(2){
+    height: 600px;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin-left: 20px;
+    text-align: center;
+    color: #fc2779;
+    background-color: white;
+    font-size: larger;
+    padding-bottom: 30px;
+
+
+}
+#addiv>div:nth-child(2)>input{
+    width: 90%;
+    height:50px;
+   margin-top: 20px;
+   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+   border: none;
+
+}
+#addiv2{
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+}
+#addiv2>div>input{
+    height:20px;
+    width: 20px;
+    margin-top: 25px;
+    margin-left: 20px;
+
+}
+#ship{
+    height: 50px;
+    width: 90%;
+    background-color: #fc2779;
+    color: white;
+    font-size:20px;
+    border: none;
+
+}
+#payment>div{
+    margin-bottom:24px;
+    background-color: white;
+    margin-left: 20px;
+
+}
+
+#payment >div:nth-child(1){
+    height: 50px;
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding-top: 10px;
+   
+}
+#payment >div:nth-child(2){
+    height: 150px;
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#payment >div:nth-child(3){
+    height: 150px;
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#payment >div:nth-child(4){
+    height: 200px;
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}

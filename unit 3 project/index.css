@@ -1,0 +1,67 @@
+body{
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#signin{
+    height:400px;
+    width: 240px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin-left: 600px;
+    margin-top: 50px;
+    padding: 50px;
+    padding-bottom: 250px;
+    background-color: white;
+    border-radius:15px;
+    font-family: sans-serif;
+    padding-left: 60px;
+    padding-right: 60px;
+
+
+}
+#signini-img{
+    width: 100%;
+}
+#addnumber{
+    width: 100%;
+    margin-top:20px;
+    height: 40px;
+    font-size: 16px;
+    background-color:#fc2779;
+    color: white;
+    border: 1px solid #fc2779 ;
+    cursor:pointer;
+    border-radius: 3px;
+
+}
+#addnumber a{
+    text-decoration:none ;
+    color: white;
+    font-size:16px;
+
+}
+.signp{
+color:#6a7680;
+width:100%;
+
+
+}
+#google{
+    width:100%;
+    margin-top:20px;
+    height:40px;
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    cursor: pointer;
+}
+#gooleimg{
+    height:100%;
+    width: 80px;
+}
+#wrong{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div id="login">
+        <h2>LOGIN</h2>
+        <input type="text" id="user" placeholder="enter mail">
+        <input type="password" id="user_password" placeholder="Enter your password">
+        <button id="loginbtn">login</button>
+    </div>
+</body>
+</html>
+<script>
+    let data=JSON.parse(localStorage.getItem("singup"))
+    
+    document.getElementById("loginbtn").addEventListener("click",()=>{
+        event.preventDefault();
+        let user=document.getElementById("user").value;
+        let password=document.getElementById("user_password").value;
+        let x=false;
+        for(let i=0;i<data.length;i++){
+            //console.log(data[i])
+            if(data[i].email==user && data[i].password==password){
+               x=true;
+            }
+        }
+        if(x==true){
+            alert("Successfully logedin!")
+            window.location.href="https://www.nykaa.com"
+        }
+        else{
+            alert("Failed to login!")
+        }
+    })
+    
+</script>
