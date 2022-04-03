@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/payment.css">
+    <script src="https://kit.fontawesome.com/e920becf4e.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5e658830d2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="notice">
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <p>Please use a digital payment method & help us ensure contactless delivery for your safety</p>
+        </div>
+        <div id="method">
+            <p>CHOOSE PAYMENT METHOD</p>
+        </div>
+        <div id="paymentOptions">
+            <div id="creditCard">Credit/Debit Card</div>
+            <div id="upi">UPI</div>
+            <div id="gPay">Google Pay</div>
+            <div id="NB">Net Banking</div>
+            <div id="mobWallett">Mobile Wallets</div>
+            <div id="cod">Cash On Delivery</div>
+            <div id="giftCard">Gift Card</div>
+        </div>
+        <div id="selected-paymentOptions">
+            <div>Credit/Debit Card</div>
+            <div>
+                <input type="number" placeholder="Card Number" required>
+            </div>
+            <p>expiry</p>
+            <div id="expiry">
+                <div>
+                    <input type="number" placeholder="MM" required>
+                    <p id="spec">/</p>
+                    <input type="number" placeholder="YY" required>
+                    <input type="number" placeholder="CVV" required>
+                    <img src="https://www.nykaa.com/assets/desktop/images/checkout/bank-card-back-side.png" alt="">
+                </div>
+                <div id="last">
+                    <p>last 3 digits at the back of the card</p>
+                </div>
+            </div>
+            <button id="payButton"></button>
+        </div>
+        <div id="checkOut"></div>
+    </div>
+</body>
+</html>
+<script src="./scripts/payment.js"></script>
+
+
+ 

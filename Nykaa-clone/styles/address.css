@@ -1,0 +1,196 @@
+body{
+    font-family:sans-serif;
+    background-color:#f3f3f3;
+}
+#adnav{
+    display: flex;
+    height: 90px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    background-color: white;
+}
+#adnav>div:nth-child(1){
+    height: 100%;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#adnav>div:nth-child(1) img{
+    height: 80%;
+    width: 25%;
+    margin-top: 10px;
+  margin-left: 35%;
+}
+#adnav>div:nth-child(2){
+    height: 100%;
+    width: 150px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+} 
+#adnav>div:nth-child(3){
+    height: 100%;
+    width: 150px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#adnav>div:nth-child(4){
+    height: 100%;
+    width: 150px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#adnav>div>h3{
+    margin-left: 10px;
+    margin-top: 25px;
+    color:#83848c;
+}
+#adnav>div>h3:hover{
+    color:#fc2779;
+}
+/* <----------adddiv-------------- */
+#addiv{
+    display: flex;
+    margin-top: 50px;
+    
+}
+#addiv>div:nth-child(1){
+    height: 50px;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin-left: 200px;
+    text-align: center;
+    color: #fc2779;
+    background-color: white;
+}
+#addiv>div:nth-child(2){
+    height: 650px;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin-left: 20px;
+    text-align: center;
+    color: #fc2779;
+    background-color: white;
+    font-size: larger;
+    padding-bottom: 30px;
+    border-radius: 10px;
+
+
+}
+#formad>input{
+    width: 90%;
+    height:50px;
+   margin-top: 20px;
+   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+   border: none;
+
+}
+#addiv2{
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+}
+#addiv2>div>input{
+    height:20px;
+    width: 20px;
+    margin-top: 25px;
+    margin-left: 20px;
+
+}
+#ship{
+    height: 50px;
+    width: 90%;
+    background-color: #fc2779;
+    color: white;
+    font-size:20px;
+    border: none;
+
+}
+#payment>div{
+    margin-bottom:24px;
+    background-color: white;
+    margin-left: 20px;
+
+}
+
+#payment >div:nth-child(1){
+    height: 50px;
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding-top: 10px;
+   
+}
+
+#payment >div:nth-child(4){
+    height: 250px;
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#product {
+   overflow: scroll;
+}
+#product>div{
+    display: flex;
+    gap: 25px;
+    font-size: 14px;
+    height: 100%;
+}
+#product>div img{
+    height: 100px;
+    width: 100px;
+}
+.product1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.product1>div:first-child{
+    margin-left: 10px;
+}
+.product1>div:last-child{
+    margin-right: 10px;
+}
+#delivery{
+    margin-top: 200px;
+    display: flex;
+    height:200px;
+    width: 100%;
+   justify-content: space-around;
+}
+.logo{
+    display: flex;
+    height:60px;
+    width: 200px;
+color: #969696;
+}
+.logo>div>img{
+    margin-top: 15px;
+    height:60px;
+    width: 60px;
+}
+.logo>div:last-child{
+    margin-top:20px;
+  margin-left: 10px;
+}
+.logo>div:first-child{
+    text-align: center;
+    width: 150px;
+    background-color: #969696 ;
+    height: 80px;
+    border-radius: 40px;
+}
+::-webkit-scrollbar{
+    width: 1em;
+  }
+  ::-webkit-scrollbar-track{
+    background: rgb(114, 112, 112);
+    border-radius: 30px;
+    margin-block: 5px;
+  }
+  ::-webkit-scrollbar-thumb{
+    background: linear-gradient(#fc2779 ,black);
+    border-radius: 30px;
+  }
+  ::-webkit-scrollbar-thumb:hover{
+    background:linear-gradient(#fc2779,grey) ;
+    
+  }
+  ::-webkit-scrollbar-track:hover{
+    background: rgb(65, 63, 63);
+  }

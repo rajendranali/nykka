@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/main.css">
+    <script src="https://kit.fontawesome.com/5e658830d2.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div id="header">
+           
+        <div id="navbar">
+            <div id="first">
+                <div id="first1">
+                    <div id="left">
+                        <a class="anchor"> BEAUTY BONANZA Get Your Daily Dose Of Amazing Deals </a>
+                    </div>
+                    <div id="right">
+                        <a class="anchore">
+                            <img src="https://img.icons8.com/ios-glyphs/30/000000/iphone-x.png"/>
+                            <p>Get App</p>
+                        </a>
+                        <a class="anchore">
+                            <img src="https://img.icons8.com/ios-glyphs/30/000000/order-on-the-way.png"/>
+                            <p>Store & Events</p>
+                        </a>
+                        <a class="anchore">
+                            <img src="https://img.icons8.com/ios-glyphs/30/000000/gift-card.png"/>
+                            <p>Gift Card</p>
+                        </a>
+                        <a class="anchore">
+                            <img src="https://img.icons8.com/ios-glyphs/30/000000/help.png"/>
+                            <p>Help</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="hr"></div>
+            <div id="second">
+                <div id="second1">
+                    <div class="second2">
+                        <a>
+                            <img src="https://logos-download.com/wp-content/uploads/2021/01/Nykaa_Logo.png">
+                        </a>
+                    </div>
+                    <div class="second3">
+                        <ul class="list">
+                            <li>
+                                <a>Categories</a>
+                            </li>
+                            <li>
+                                <a>brands</a>
+                            </li>
+                            <li>
+                                <a>nykaa fashion</a>
+                            </li>
+                            <li>
+                                <a>beauty advice</a>
+                            </li>
+                            <li>
+                                <a>nykaa network</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="second4">
+                        <div id="Sbar">
+                            <img src="https://img.icons8.com/ios/50/000000/search--v1.png"/>
+                            <input id="second4_1" placeholder="Serch on Nykaa" >
+                        </div>
+                        
+                    </div>
+                    <div id="second5">
+                        <a>
+                            <img style="width: 26px;height: 26px;" src="https://img.icons8.com/windows/32/000000/guest-male--v1.png"/>
+                            <div>
+                                <p >Account</p>
+                                <p id="user_name"></p>
+                            </div>
+                            
+                        </a>
+                        <a  href="cart.html">
+                            <img src="https://img.icons8.com/external-royyan-wijaya-detailed-outline-royyan-wijaya/24/000000/external-bag-fashion-royyan-wijaya-detailed-outline-royyan-wijaya-2.png"/> 
+                        </a>
+                        <h3 id="product_num" style="color:  #fc2779;"></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="hr"></div>
+            
+        </div>
+        <div id="third">
+            <div class="third1">
+                <ul class="third1_1">
+                    <li class="class">Makeup</li>
+                    <li class="class">Skin</li>
+                    <li class="class">Hair</li>
+                    <li class="class">Appliances</li>
+                    <li class="class">Personal Care</li>
+                    <li class="class">Natural</li>
+                    <li class="class">Mom & Baby</li>
+                    <li class="class">Health & Wellness</li>
+                    <li class="class">Men</li>
+                    <li class="class">Fragrance</li>
+                    <li class="class">LUXE</li>
+                </ul>
+                <a class="third1_2">
+                    <img style="width:85px;height: 30px; margin: auto; " src="image-removebg-preview.png">
+                </a>
+                   
+                
+                
+            </div>
+           
+        </div>
+        <div class="hr"></div>
+    </div>
+<div id="slimg">
+    <div class="aa1"><img src="https://images-static.nykaa.com/uploads/c2ca02dc-6b5a-4dee-8998-ddf00bbf3ea5.jpg?tr=w-1200,cm-pad_resize" ></div>
+    <div class="aa1"><img src="https://images-static.nykaa.com/uploads/53a46e5d-8a74-487b-bb42-5727a24497d2.jpg?tr=w-1200,cm-pad_resize" ></div>
+     <button id="bttn1"><i class="fa-solid fa-less-than"></i></button>
+    <button id="bttn2"><i class="fa-solid fa-greater-than"></i></button>
+</div>
+    <div>
+        <h1 style="text-align: center;">ALL PRODUCT</h1>
+    </div>
+
+    <div id = "container">
+        <div id ="sort_box">
+            <select onclick = "SortItem()" id="sorting">
+                <option>Sort By</option>
+                <option value="h2l">Sort By : Price: High To Low</option>
+                <option value="l2h">Sort By :Price:Low To High</option>
+                <option value="rat">Sort By :Customer Top Rated</option>
+                <option value="">Sort By :Popularity</option>
+                <option value="">Sort By :Discount</option>
+                <option value="">Sort By :Name</option>
+                
+              
+            </select>
+
+            <div id="lower_box">
+                <select name="" id="">
+                    <option value="">Category</option>
+                </select>
+                <select name="" id="">
+                    <option value="">Price</option>
+                </select>
+                <select name="" id="">
+                    <option value="">Discount</option>
+                </select>
+                <select name="" id="">
+                    <option value="">Avg Customer Rating</option>
+                </select>
+                <select name="" id="">
+                    <option value="">Hair Type</option>
+                </select>
+                <select name="" id="">
+                    <option value="">Concern</option>
+                </select>
+                <select name="" id="">
+                    <option value="">Formulation</option>
+                </select>
+                <select name="" id="">
+                    <option value="">Gender</option>
+                </select>
+                <select name="" id="">
+                    <option value="">Ingredient</option>
+                </select>
+        
+            </div>
+
+        </div>
+        <div id="main"></div>
+    </div>
+
+<!-- harapriya -->
+
+<div id="foot">
+    <div class="cls1">
+        <div class="inbx">
+            <div><i class="fa-solid fa-envelope"></i></div>
+            <h4>Get special discount on your inbox</h4>
+        </div>
+        <div id="emi">
+            <input type="text" id="inp"  placeholder="Your Email">
+            <button>SEND</button>
+        </div>
+        
+    </div>
+    <div class="cls1">
+        <div class="inbx">
+             <div><i class="fa-solid fa-mobile-screen"></i></div>
+             <h5>EXPERIENCE THE NYKAA MOBILE APP</h5>
+        </div>
+        <div id="immg">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/2560px-Google_Play_Store_badge_EN.svg.png">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/2560px-Download_on_the_App_Store_Badge.svg.png">
+        </div>
+    </div>
+    <div class="cls2">
+        <div id="phone">
+            <div id="poni"><i class="fa-solid fa-phone"></i></div>
+            <div id="para">
+                <p>FOR ANY HELP YOU MAY CALL US AT</p>
+                <p>1800-267-4444</p>
+            </div>
+        </div>
+        <h4>(Monday to Saturday, 8AM to 10PM and Sunday, 10AM to 7PM)</h4>
+    </div>
+</div>
+
+
+<div id="gry">
+    <div class="g1">
+        <img src="https://uploads-ssl.webflow.com/60ae16f0e20bce50d40c3c7e/61fe753da30e6ec646637c5a_Nykaa_Logo.png">
+
+        <a href="https://www.nykaa.com/who_are_we/?utm_source=Desktop_web_footer"><p>Who are we?</p></a>
+        <a href="https://www.nykaa.com/who_are_we#wwrcopen"><p>Careers</p></a>
+        <a href="https://www.nykaa.com/authenticity-nykaa-guarantee?utm_source=Desktop_web_footer"><p>Authenticity</p></a>
+        <a href=""><p>Press</p></a>
+        <a href=""><p>Testimonials</p></a>
+        <a href=""><p>Nykaa CSR</p></a>
+        <a href=""><p>Responsible Disclosure</p></a>
+        <a href=""><p>Investor Relations</p></a>
+    </div>
+
+    <div class="g1">
+        <h4>Help</h4>
+
+        <a href="https://support.nykaa.com/"><p>Contact Us</p></a>
+        <a href="https://support.nykaa.com/"><p>Frequently asked questions</p></a>
+        <a href="https://www.nykaa.com/nykaa-stores-and-events/?utm_source=Desktop_web_footer"><p>Store Locator</p></a>
+        <a href="https://www.nykaa.com/cancellation-policy/?utm_source=Desktop_web_footer"><p>Cancellation & Return</p></a>
+        <a href=""><p>Shipping & Delivery</p></a>
+        <a href=""><p>Sell on Nykaa</p></a>
+
+     </div>
+
+    <div class="g1">
+        <h4>Inspire Me</h4>
+        
+        <a href="https://www.nykaa.com/beauty-blog/?utm_source=Desktop_web_footer"><p>Beauty Book</p></a>
+        <a href="https://www.nykaa.com/nykaatv?utm_source=Desktop_web_footer"><p>Nykaa TV</p></a>
+        <a href="https://www.nykaa.com/nykaa-network/home"><p>Nykaa Network</p></a>
+        <a href="https://www.nykaa.com/buying-guides/?utm_source=Desktop_web_footer"><p>Buying Guides</p></a>
+
+     </div>
+
+    <div class="g1">
+        <h4>Quick Links</h4>
+        
+        <a href="https://www.nykaa.com/offers.html/?utm_source=Desktop_web_footer"><p>Offer Zone</p></a>
+        <a href="https://www.nykaa.com/new-launches-at-nykaa/?utm_source=Desktop_web_footer"><p>New Launches</p></a>
+        <a href="https://www.nykaaman.com/?utm_source=Desktop_web_footer"><p>Nykaa Man</p></a>
+        <a href="https://www.nykaafashion.com/?utm_source=Desktop_web_footer"><p>Nykaa Fashion</p></a>
+        <a href=""><p>Nykaa Pro</p></a>
+        <a href=""><p>Nykaa femina beauty awards winners 2019</p></a>
+        <a href=""><p>Sitemap</p></a>
+        
+     </div>
+
+    <div class="g1">
+        <h4>Top Categories</h4>
+        
+        <a href="https://www.nykaa.com/makeup/c/12?eq=desktop&root=nav_footer&utm_source=Desktop_web_footer"><p>Makeup</p></a>
+        <a href="https://www.nykaa.com/skin/c/8377?eq=desktop&root=nav_footer&utm_source=Desktop_web_footer"><p>Skin</p></a>
+        <a href="https://www.nykaa.com/hair-care/c/24?eq=desktop&root=nav_footer&utm_source=Desktop_web_footer"><p>Hair</p></a>
+        <a href="https://www.nykaa.com/personal-care/c/1380?eq=desktop&root=nav_footer&utm_source=Desktop_web_footer"><p>Personal Care</p></a>
+        <a href="https://www.nykaa.com/best-personal-care-appliances-online?utm_source=Desktop_web_footer"><p>Appliances</p></a>
+        <a href=""><p>Mom and Baby</p></a>
+        <a href=""><p>Wellness</p></a>
+        <a href=""><p>Fragrance</p></a>
+        <a href=""><p>Natura</p></a>
+        <a href=""><p>Luxe</p></a>
+
+     </div>
+
+ </div>
+
+
+ <div id="z1">
+      <div class="cz">
+          <div>
+             <img src="https://adn-static2.nykaa.com/media/wysiwyg/2021/Free-shipping.svg" alt="">
+          </div>
+          <div class="bos">
+             <p>FREE SHIPPING</p>
+             <span class="lin"></span>
+             <p>for orders above INR299</p>
+          </div>
+      </div>
+
+      <div class="cz">
+          <div>
+             <img src="https://adn-static2.nykaa.com/media/wysiwyg/2021/return_accepted.svg" alt="">
+          </div>
+          <div class="bos">
+              <p>EASY RETURNS</p>
+              <span class="lin"></span>
+              <p>15 Day Easy Returns For Most Products</p>
+          </div>
+      </div>
+
+
+      <div class="cz">
+          <div><img src="https://adn-static2.nykaa.com/media/wysiwyg/2021/Authenticity.svg" alt=""></div>
+          <div class="bos">
+             <p>AUTHENTIC PRODUCTS</p>
+             <span class="lin"></span>
+             <p>Sourced Directly from Brands/ Authorised Distributors</p>
+          </div>
+      </div>
+
+      <div class="cz">
+         <div> <img src="https://adn-static2.nykaa.com/media/wysiwyg/2021/Brands.svg" alt=""></div>
+         <div class="bos">
+             <p>2400+ BRANDS</p>
+             <span class="lin"></span>
+             <p>Well Curated 1.9Lakh + Product</p>
+         </div>
+      </div>
+
+      <div id="cvz">
+          <p id="par">Show us some love ❤ on social media</p>
+
+          <div class="media-icons">
+             <a href="https://www.instagram.com/mynykaa/?ref=badge"><img src="https://images-static.naikaa.com/media/wysiwyg/2021/icons/ic_social-instagram-filled.svg" alt=""></a>
+             <a href="https://www.facebook.com/MyNykaa"><img src="https://images-static.naikaa.com/media/wysiwyg/2021/icons/ic_social-facebook-filled.svg" alt=""></a>
+             <a href="https://www.youtube.com/channel/UCoaH2UtB1PsV7av17woV1BA"><img src="https://images-static.naikaa.com/media/wysiwyg/2021/icons/ic_social-youtube-filled.svg" alt=""></a>
+             <a href="https://twitter.com/MyNykaa"><img src="https://images-static.naikaa.com/media/wysiwyg/2021/icons/ic_social-twitter-filled.svg" alt=""></a>
+             <a href="https://www.pinterest.com/mynykaa/"><img src="https://images-static.naikaa.com/media/wysiwyg/2021/icons/ic_social-pinterest-filled.svg" alt=""></a>
+         </div>
+      </div>
+      
+ </div>
+
+ <div id="pink">
+     <div id="pink1">
+         <a href="https://www.nykaa.com/policy#terms-conditions">Terms & Conditions</a>
+         <a href="https://www.nykaa.com/policy#shipping-policy">Shipping Policy</a>
+         <a href="https://www.nykaa.com/policy#cancellation-and-return-policy">Cancellation Policy</a>
+         <a href="https://www.nykaa.com/policy#privacy-policy">Privacy Policy</a>
+     </div>
+     <p>© 2022 Nykaa E-Retail Pvt. Ltd. All Rights Reserved.</p>
+     
+ </div>
+
+    
+
+
+</body>
+</html>
+<script src = "./scripts/main.js"></script>

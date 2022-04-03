@@ -1,0 +1,66 @@
+body{
+    font-family:sans-serif;
+    background-color: #f3f3f3;
+}
+#proceed{
+    width: 400px;
+    height:600px ;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    font-family: sans-serif;
+    background-color: white;
+    margin-left: 500px;
+    padding-top: 10px;
+    border-radius: 4px;
+}
+#proimg{
+    margin-left: 10px;
+    height: 20px;
+    width:20px;
+}
+#proinput{
+    width: 88%;
+   text-align: center;
+   margin-left: 20px;
+   height: 50px;
+   border: 1px solid #fc2779;
+
+}
+#proceed h3{
+    text-align: center;
+}
+button{
+  
+    margin-left: 50px;
+    width: 70%;
+    margin-top: 30px;
+    height: 60px;
+    background-color:#fc2779;
+    color: white;
+    font-size:20px;
+    border: 1px solid #fc2779;
+}
+#proceed p{
+    text-align:right;
+    margin-right: 20px;
+    margin-top:0px;
+}
+
+::-webkit-scrollbar{
+    width: 1em;
+  }
+  ::-webkit-scrollbar-track{
+    background: rgb(114, 112, 112);
+    border-radius: 30px;
+    margin-block: 5px;
+  }
+  ::-webkit-scrollbar-thumb{
+    background: linear-gradient(#fc2779 ,black);
+    border-radius: 30px;
+  }
+  ::-webkit-scrollbar-thumb:hover{
+    background:linear-gradient(#fc2779,grey) ;
+    
+  }
+  ::-webkit-scrollbar-track:hover{
+    background: rgb(65, 63, 63);
+  }

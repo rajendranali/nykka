@@ -1,0 +1,136 @@
+
+#nykaa {
+    display: flex;
+    width: 80%;
+    /* gap: 0.5%; */
+    margin: auto;
+    height: 400px;
+    font-size: 20px;
+    margin-top: 100px;
+    font-family:sans-serif;
+   
+  }
+#bag {
+  width: 215px;
+  height: 20px;
+  text-align: center;
+  padding: 15px;
+  margin-top: 70px;
+  font-size: 18px;
+  color: white;
+  background-color: #fc2779;
+}
+img {
+  padding: 15px 35px;
+  width: 200px;
+
+}
+#first{
+  width:36%;
+  display: flex;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+#sec{
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  /* width:60%; */
+  padding: 0px 45px;
+}
+/* #pics>div{
+  height: 50px;
+  width: 50px;
+  border: 1px solid green;
+} */
+#hearti > i {
+  font-size: 30px;
+  color: indianred;
+  margin-left: 97%;
+}
+#option{
+  display: flex;
+  
+}
+#delivery{
+  margin-left: 60px;
+  margin-top: 30px;
+}
+#delivery>input{
+  width:265px;
+  height: 45px;
+  font-size: 15px;
+  padding-right: 15px;
+  border: transparent;
+  border-bottom: 1px solid grey;
+}
+button{
+  border: none;
+  margin-left: -65px;
+  background-color:transparent;
+  color: indianred;
+  font-size:19px
+}
+#tZ{
+  width: 394px;
+  height: 330px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+}
+#tF{
+  width: 60px;
+  height: 100%;
+  /* border: 1px solid slateblue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+#tF >div{
+  width: 50px;
+  height: 50px;
+  /* background-color: red; */
+  border-radius: 5px;
+  /* background-image: url("https://images-static.nykaa.com/media/catalog/product/e/1/e1b03ef8904245711009_1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%; */
+}
+
+#tS{
+  width: 300px;
+  height: 100%;
+  /* border: 1px solid gray; */
+}
+#tS>img{
+  width: 230px;
+  height: 100%;
+  border-radius: 30px;
+}
+.imageS{
+  width: 100%;
+  height: 100%;
+  padding: right 40px; 
+}
+.tF1:hover{
+  cursor: pointer;
+  /* border: 1px solid red; */
+}
+
+::-webkit-scrollbar{
+  width: 1em;
+}
+::-webkit-scrollbar-track{
+  background: rgb(114, 112, 112);
+  border-radius: 30px;
+  margin-block: 5px;
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(#fc2779 ,black);
+  border-radius: 30px;
+}
+::-webkit-scrollbar-thumb:hover{
+  background:linear-gradient(#fc2779,grey) ;
+  
+}
+::-webkit-scrollbar-track:hover{
+  background: rgb(65, 63, 63);
+}
